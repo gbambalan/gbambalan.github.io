@@ -12,7 +12,7 @@ document.getElementById("Youtube").addEventListener("click", function() {
   const myImage = document.getElementById("Billionaires Bay");
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/AntibesBB.png") {
+  if (mySrc === "AntibesBB.png") {
     myImage.setAttribute("src", "images/Swimming.png");
   } else {
     myImage.setAttribute("src", "images/AntibesBB.png");
