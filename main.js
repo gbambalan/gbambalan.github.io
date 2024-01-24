@@ -13,9 +13,9 @@ document.getElementById("Youtube").addEventListener("click", function() {
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "AntibesBB.png") {
-    myImage.setAttribute("src", "images/Swimming.png");
+    myImage.setAttribute("src", "Swimming.png");
   } else {
-    myImage.setAttribute("src", "images/AntibesBB.png");
+    myImage.setAttribute("src", "AntibesBB.png");
   }
 };
 
