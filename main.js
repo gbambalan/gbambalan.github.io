@@ -18,7 +18,6 @@ myImage.onclick = () => {
   }
 };
 
-let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h2");
 
 function setUserName() {
@@ -37,13 +36,3 @@ if (!localStorage.getItem("name")) {
   const storedName = localStorage.getItem("name");
   myHeading.textContent = `Nice to meet you ${storedName}!`;
 }
-
-myButton.onclick = () => {
-  setUserName();
-};
-
-
-  
-  
-
-  
